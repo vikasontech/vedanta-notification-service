@@ -1,0 +1,9 @@
+spring:
+  redis:
+    host: localhost
+    port: 6791 
+
+logging:
+  level:
+    org:
+      vedanta: INFO

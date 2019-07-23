@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: vedanta-notification-service
+
+  redis:
+    host:
+    port:
+    password:
+
+  mail:
+    host:
+    port:
+    username:
+    password:
+  messages:
+    cache-duration: PT1S # 1 second, see the ISO 8601 standard
+  thymeleaf:
+    cache: false
+
+application:
+  mail:
+    from:
+    base-url:
+    enabled: true
+
+keycloak:
+  realm:
+  cors:
+  public-client:
+  auth-server-url :
+  ssl-required :
+  resource :
+  use-resource-role-mappings :
+  principal-attribute:
+
+
+logging:
+  level:
+    org:
+      vedanta: TRACE
